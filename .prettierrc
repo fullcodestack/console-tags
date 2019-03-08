@@ -1,0 +1,27 @@
+{
+  "printWidth": 80,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "semi": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": { "parser": "json" }
+    },
+    {
+      "files": ["*.css", "*.scss"],
+      "options": { "parser": "css" }
+    },
+    {
+      "files": ["*.md"],
+      "options": { "parser": "markdown" }
+    }
+  ]
+}
