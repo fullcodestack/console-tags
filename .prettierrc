@@ -3,7 +3,7 @@
   "singleQuote": true,
   "arrowParens": "always",
   "semi": true,
-  "trailingComma": "all",
+  "trailingComma": "none",
   "overrides": [
     {
       "files": "*.ts",
